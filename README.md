@@ -18,11 +18,12 @@
 -   [ ] axios 安装 + 二次封装
 -   [x] sass 安装 + 全局变量的配置
 -   [x] vue-router 安装 + 使用
--   [ ] animate.css 的引入
+-   [x] animate.css 的引入
 -   [x] element 按需引入
 -   [ ] echarts 按需引入
 -   [x] iconfont 图标库引入
--   [ ] unocss 集成
+-   [x] unocss 集成
+-   [x] 引入其他字体
 
 ## 项目初始化的一些集成操作
 
@@ -42,6 +43,10 @@
 -   [x] 全局组件（`globalComponent`）的注册
     -   [x] icon组件 -> 如果要使用 iconfont 中的图标，直接复制 svg 即可
 -   [x] `mockjs` 相关数据的配置 -> **模拟后端**
--   [ ] 夜间模式的开关
+-   [x] 夜间模式的开关
 -   [ ] 基于 token 的身份验证
 -   [ ] 拥有脚手架 -> 全局安装后，使用`li-vue`命令即可快速生成项目
+-   [x] 文件打包配置`rollupOptions`
+-   [x] 打包后会产生一张打包结果分析图用于优化
+-   [x] 配置 `esbuild` 配合打包
+-   [ ] 配置打包时压缩图片

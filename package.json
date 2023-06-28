@@ -15,6 +15,7 @@
         "commitlint": "commitlint --config commitlint.config.cjs -e -V"
     },
     "dependencies": {
+        "animate.css": "^4.1.1",
         "axios": "^1.4.0",
         "element-plus": "^2.3.7",
         "eslint-config-prettier": "^8.8.0",
@@ -37,7 +38,9 @@
         "husky": "^8.0.0",
         "mockjs": "^1.1.0",
         "prettier": "^2.8.8",
+        "rollup-plugin-visualizer": "^5.9.2",
         "typescript": "^5.0.2",
+        "unocss": "^0.53.4",
         "unplugin-auto-import": "^0.16.4",
         "unplugin-vue-components": "^0.25.1",
         "vite": "^4.3.9",

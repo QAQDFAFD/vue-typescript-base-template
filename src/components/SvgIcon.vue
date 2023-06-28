@@ -8,7 +8,7 @@
 const props = defineProps({
     name: {
         type: String,
-        default: 'phone',
+        default: 'file',
         isrequired: true
     },
     color: {
