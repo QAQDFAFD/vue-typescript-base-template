@@ -20,7 +20,7 @@
 -   [x] vue-router 安装 + 使用
 -   [x] animate.css 的引入
 -   [x] element 按需引入
--   [ ] echarts 按需引入
+-   [x] echarts 按需引入
 -   [x] iconfont 图标库引入
 -   [x] unocss 集成
 -   [x] 引入其他字体
