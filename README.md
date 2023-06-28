@@ -1,4 +1,4 @@
-# vue-base-template
+# vue-ts-base-template
 
 > `vue+ts` 开发模板。
 
