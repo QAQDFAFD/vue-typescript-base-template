@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <div class="left">
+        <div class="left animate__animated animate__fadeInLeft">
             <div style="font-size: 3rem; margin: 3rem 0 2rem 0; cursor: pointer">
                 &nbsp;
                 <SvgIcon color="red" width="2rem" height="2rem"></SvgIcon>
@@ -8,7 +8,7 @@
             </div>
             <div class="pic"></div>
         </div>
-        <div class="right c-red">
+        <div class="right animate__animated animate__fadeInRight c-red">
             <div class="package">
                 <div>开发包</div>
                 <li>pinia</li>
