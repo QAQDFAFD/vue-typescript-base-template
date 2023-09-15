@@ -22,8 +22,13 @@ export default ({ command }: ConfigEnv): UserConfigExport => {
             }),
             AutoImport({
                 imports: ['vue', 'vue-router', 'pinia'],
-                dts: false,
-                resolvers: [ElementPlusResolver()]
+                dts: './auto-imports.d.ts',
+                resolvers: [ElementPlusResolver()],
+                eslintrc: {
+                    enabled: true,
+                    filepath: './.eslintrc-auto-import.json',
+                    globalsPropValue: true
+                }
             }),
             Components({
                 dts: false,
