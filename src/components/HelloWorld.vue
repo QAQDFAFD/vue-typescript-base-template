@@ -16,7 +16,7 @@
                 <li>sass</li>
                 <li>vue-router</li>
                 <li>animate.css</li>
-                <li>element-plus</li>
+                <li>组件库按需引入(el/antd)</li>
                 <li>echarts</li>
                 <li>iconfont</li>
                 <li>unocss</li>
