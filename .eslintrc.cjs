@@ -41,6 +41,6 @@ module.exports = {
         // 要求组件始终使用'-'连接
         'vue/multi-word-component-names': 'off',
         // 其他
-        'prettier/prettier': ['error', { endOfLine: 'auto' }]
+        'prettier/prettier': ['error', { endOfLine: 'lf' }]
     }
 }
