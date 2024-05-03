@@ -1,14 +1,15 @@
 <template>
 	<div class="container-box">
 		<div class="left animate__animated animate__fadeInLeft">
-			<div style="font-size: 3rem; margin: 3rem 0 2rem 0; cursor: pointer">
-				&nbsp;
+			<div
+				style="font-size: 3rem; margin: 3rem 0 2rem 0; cursor: pointer"
+				class="flex items-center justify-center">
 				<SvgIcon color="red" width="2rem" height="2rem"></SvgIcon>
 				<span style="font-family: 'alimama'; margin-left: 1rem">开始编写你的 Vue 项目</span>
 			</div>
 			<div class="pic animate__animated animate__zoomIn"></div>
 		</div>
-		<div class="right animate__animated animate__fadeInRight c-red">
+		<div class="right animate__animated animate__fadeInRight text-red-500">
 			<div class="package">
 				<div>开发包</div>
 				<li>pinia</li>
@@ -19,7 +20,7 @@
 				<li>组件库按需引入(el/antd)</li>
 				<li>echarts</li>
 				<li>iconfont</li>
-				<li>unocss</li>
+				<li>tailwindcss</li>
 				<li>阿里妈妈字体</li>
 			</div>
 			<div class="init">

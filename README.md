@@ -22,7 +22,7 @@
 -   [x] element 按需引入
 -   [x] echarts 按需引入
 -   [x] iconfont 图标库引入
--   [x] unocss 集成
+-   [x] tailwindcss 集成
 -   [x] 引入其他字体
 
 ## 项目初始化的一些集成操作

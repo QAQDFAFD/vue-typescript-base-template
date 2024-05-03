@@ -12,8 +12,6 @@ import globalComponent from '@/components'
 import 'virtual:svg-icons-register'
 // 引入 animate.css
 import 'animate.css'
-// 引入 uno.css
-import 'uno.css'
 // 引入相关字体
 import '@/assets/text/text.css'
 
